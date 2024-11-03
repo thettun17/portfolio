@@ -30,8 +30,8 @@ export default function About() {
         </p>
       </div>
       <h2 className="text-md font-bold mb-5 tracking-wider">What I'm Doing</h2>
-      <div className="flex gap-x-5">
-        <div className="w-2/6 custom-shadow rounded-lg p-5 flex flex-row gap-x-3 border-secondaryColor">
+      <div className="flex flex-wrap gap-5">
+        <div className=" custom-shadow rounded-lg p-5 flex flex-row gap-x-3 border-secondaryColor">
           <div className="flex-none w-0.5/3">
             <img src="/images/backend.png" alt="backend-image" />
           </div>
@@ -45,7 +45,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="w-2/6 custom-shadow rounded-lg p-5 flex flex-row gap-x-3">
+        <div className=" custom-shadow rounded-lg p-5 flex flex-row gap-x-3">
           <div className="flex-none w-0.5/3">
             <img src="/images/frontend.png" alt="frontend-image" />
           </div>
@@ -58,7 +58,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="w-2/6 custom-shadow rounded-lg p-5 flex flex-row gap-x-3">
+        <div className=" custom-shadow rounded-lg p-5 flex flex-row gap-x-3">
           <div className="flex-none w-0.5/3">
             <img src="/images/api.png" alt="mobile-api-image" />
           </div>
