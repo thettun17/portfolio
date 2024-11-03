@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     fontSize: {
+      sm: [
+        "13px",
+        {
+          fontWeight: "200",
+        },
+      ],
       md: [
         "1.5rem",
         {

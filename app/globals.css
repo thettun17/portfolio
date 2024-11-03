@@ -57,11 +57,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--smoky-black);
+  background: var(--background);
 }
 
 body::-webkit-scrollbar-thumb {
-  border: 5px solid var(--smoky-black);
+  border: 5px solid var(--background);
   background: hsla(0, 0%, 100%, 0.1);
   border-radius: 20px;
   box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
@@ -74,4 +74,52 @@ body::-webkit-scrollbar-thumb:hover {
 
 body::-webkit-scrollbar-button {
   height: 60px;
+}
+
+.experience {
+  position: relative;
+  z-index: 2;
+}
+
+/* .company-timeline::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 90%;
+  left: 25px;
+  top: 25px;
+  z-index: -1;
+  background-color: #b0971b;
+} */
+
+.description {
+  position: relative;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.timeline::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 100%;
+  left: -39px;
+  top: 6px;
+  z-index: -1;
+  background-color: #b0971b;
+}
+
+.timeline::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  left: -44px;
+  top: 5px;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: #b0971b;
+  border: 1px solid var(--foreground);
 }

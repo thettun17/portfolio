@@ -5,7 +5,7 @@ export default function Sidebar() {
     <div className="bg-primaryColor rounded-lg ml-2 flex flex-col px-3 sticy-sidebar">
       {/* Profile Part */}
       <div className="mt-[2.75rem] text-customWhite flex flex-col items-center gap-y-2">
-        <div className="rounded-lg w-[150px] custom-shadow p-2">
+        <div className="rounded-lg w-[150px] bg-secondaryColor custom-shadow p-2">
           <img
             src="/images/profile.jpg"
             alt="profile"
@@ -22,7 +22,7 @@ export default function Sidebar() {
       <div className="flex flex-wrap flex-col gap-y-8">
         {/* Email */}
         <div className="flex flex-row justify-normal gap-x-6">
-          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] custom-shadow">
+          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
             <svg
               className="fill-iconColor"
               width="100%"
@@ -43,28 +43,18 @@ export default function Sidebar() {
         </div>
         {/* Phone */}
         <div className="flex flex-row justify-normal gap-x-6">
-          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] custom-shadow">
+          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
             <svg
               className="fill-iconColor"
               width="100%"
               height="100%"
-              viewBox="0 0 24 24"
+              viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
+              stroke="#000000"
             >
-              <path
-                d="M18.9998 17.5V6.5C19.0627 5.37366 18.6774 4.2682 17.9279 3.42505C17.1784 2.5819 16.1258 2.06958 14.9998 2H8.99981C7.87387 2.06958 6.82121 2.5819 6.07175 3.42505C5.32228 4.2682 4.9369 5.37366 4.99982 6.5V17.5C4.9369 18.6263 5.32228 19.7317 6.07175 20.5748C6.82121 21.418 7.87387 21.9303 8.99981 21.9999H14.9998C16.1258 21.9303 17.1784 21.418 17.9279 20.5748C18.6774 19.7317 19.0627 18.6263 18.9998 17.5V17.5Z"
-                stroke="#000000"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M14 5H10"
-                stroke="#000000"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
+              <rect x="18" y="8" width="28" height="48" rx="4" />
+              <line x1="28" y1="12" x2="36" y2="12" />
+              <line x1="30" y1="52" x2="34" y2="52" />
             </svg>
           </div>
           <div>
@@ -74,7 +64,7 @@ export default function Sidebar() {
         </div>
         {/* Education */}
         <div className="flex flex-row justify-normal gap-x-6">
-          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] custom-shadow">
+          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
             <svg
               className="fill-iconColor"
               width="100%"
@@ -97,7 +87,7 @@ export default function Sidebar() {
         </div>
         {/* Address */}
         <div className="flex flex-row justify-normal gap-x-6">
-          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] custom-shadow">
+          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
             <svg
               className="fill-iconColor"
               height="100%"
@@ -137,7 +127,7 @@ export default function Sidebar() {
         </div>
         {/* Birthday */}
         <div className="flex flex-row justify-normal gap-x-6">
-          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] custom-shadow">
+          <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
             <svg
               className="fill-iconColor"
               width="100%"
