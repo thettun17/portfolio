@@ -5,7 +5,6 @@ export default function Resume() {
 
     let years = end.getFullYear() - start.getFullYear();
     let months = end.getMonth() - start.getMonth();
-    console.log(months);
 
     if (months < 0) {
       years -= 1;
