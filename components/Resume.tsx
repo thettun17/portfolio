@@ -196,7 +196,7 @@ export default function Resume() {
             <div className="flex flex-row  gap-x-3 items-center">
               <div className="company-logo w-[50px] h-[50px] rounded-full p-[0.7rem] bg-secondaryColor custom-shadow">
                 <img
-                  src="/images/company.png"
+                  src="/images/itvision_hub.jpg"
                   alt="bit logo"
                   width="100%"
                   height="100%"

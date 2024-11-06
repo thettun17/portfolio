@@ -9,8 +9,8 @@ export default function Navbar() {
       <div className="flex gap-x-10 bg-secondaryColor p-4 rounded-bl-lg text-white/80">
         <Link href="/" className={isActive('/') ? 'active' : ''}>About</Link>
         <Link href="/resume" className={isActive('/resume') ? 'active' : ''}>Resume</Link>
-        <Link href="">Porfolio</Link>
-        <Link href="">Project</Link>
+        <Link href="/portfolio" className={isActive('/portfolio') ? 'active' : ''}>Porfolio</Link>
+        {/* <Link href="">Project</Link> */}
       </div>
     </div>
   );

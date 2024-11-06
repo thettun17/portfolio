@@ -123,3 +123,23 @@ body::-webkit-scrollbar-button {
   background-color: #b0971b;
   border: 1px solid var(--foreground);
 }
+
+.linkedin:hover path:first-child {
+  fill: #0e76a8;
+}
+
+.facebook:hover path:first-child {
+  fill: #3b5998;
+}
+
+.github {
+  fill: #64748b;
+  /* stroke: #000000; */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+}
+
+.github:hover path {
+  fill: white;
+}
