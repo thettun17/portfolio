@@ -50,13 +50,6 @@ export default function Portfolio() {
       </div>
       {/* ====================== Better Job ======================== */}
       <div className="flex w-full gap-x-7 mt-[30px]">
-        <div className="image-area h-[400px] w-2/4">
-          <img
-            src="/portfolio/better_job.png"
-            alt="Better HR"
-            className="rounded-lg"
-          />
-        </div>
         <div className="content-area ml-3 w-2/4">
           <div className="title-area">
             <h1 className="text-white text-md mb-2">Better Job</h1>
@@ -82,6 +75,13 @@ export default function Portfolio() {
               MongoDB, MySQL, Docker
             </p>
           </div>
+        </div>
+        <div className="image-area h-[400px] w-2/4">
+          <img
+            src="/portfolio/better_job.png"
+            alt="Better HR"
+            className="rounded-lg"
+          />
         </div>
       </div>
       {/* ====================== Tharapa ======================== */}
