@@ -8,6 +8,7 @@ export default function Portfolio() {
         <div className="rounded-md border-2 bg-iconColor border-iconColor w-[4%]"></div>
       </h2>
       <div className="flex w-full gap-x-7 mt-[30px]">
+        {/* BetterHr */}
         <div className="image-area h-[400px] w-2/4">
           <img
             src="/portfolio/better_hr.png"

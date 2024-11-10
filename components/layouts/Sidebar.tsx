@@ -2,27 +2,30 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div className="bg-primaryColor rounded-lg ml-2 flex flex-col px-3 sticy-sidebar">
-      <div className="my-8">
-        {/* Profile Part */}
-        <div className="text-customWhite flex flex-col items-center gap-y-2">
-          <div className="rounded-lg w-[150px] bg-secondaryColor custom-shadow p-2">
-            <img
-              src="/images/profile.jpg"
-              alt="profile"
-              width="100%"
-              className="rounded-lg w-[150px]"
-            />
-          </div>
+    <div className="px-3 my-8">
+      {/* Profile Part */}
+      <div className="text-customWhite flex laptop:flex-col tablet:flex-row items-center text-center gap-4">
+        <div className="rounded-lg w-[150px] bg-secondaryColor custom-shadow p-2">
+          <img
+            src="/images/profile.jpg"
+            alt="profile"
+            width="100%"
+            className="rounded-lg w-[150px]"
+          />
+        </div>
+        <div>
           <h2 className="text-3xl">Thet Tun</h2>
           <p className="text-md text-customWhite/80">Software Engineer</p>
         </div>
-        {/* Divider */}
+      </div>
+      {/* Divider */}
+      <div className="tablet:hidden laptop:block">
         <div className="border-b border-gray-200 my-8"></div>
         {/* Contant Par */}
-        <div className="flex flex-wrap flex-col gap-y-6">
+        {/* <div className="w-full flex laptop:flex-col tablet:flex-row tablet:flex-wrap gap-6"> */}
+        <div className="w-full grid gap-6 tablet:grid-cols-2 laptop:grid-cols-1">
           {/* Email */}
-          <div className="flex flex-row justify-normal gap-x-6">
+          <div className="flex flex-row gap-x-6">
             <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
               <svg
                 className="fill-iconColor"
@@ -43,7 +46,7 @@ export default function Sidebar() {
             </div>
           </div>
           {/* Phone */}
-          <div className="flex flex-row justify-normal gap-x-6">
+          <div className="flex flex-row gap-x-6">
             <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
               <svg
                 className="fill-iconColor"
@@ -64,7 +67,7 @@ export default function Sidebar() {
             </div>
           </div>
           {/* Education */}
-          <div className="flex flex-row justify-normal gap-x-6">
+          <div className="flex flex-row gap-x-6">
             <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
               <svg
                 className="fill-iconColor"
@@ -87,7 +90,7 @@ export default function Sidebar() {
             </div>
           </div>
           {/* Address */}
-          <div className="flex flex-row justify-normal gap-x-6">
+          <div className="flex flex-row gap-x-6">
             <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
               <svg
                 className="fill-iconColor"
@@ -127,7 +130,7 @@ export default function Sidebar() {
             </div>
           </div>
           {/* Birthday */}
-          <div className="flex flex-row justify-normal gap-x-6">
+          <div className="flex flex-row gap-x-6">
             <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
               <svg
                 className="fill-iconColor"
@@ -148,7 +151,7 @@ export default function Sidebar() {
             </div>
           </div>
           {/* Download Resume */}
-          <div className="flex flex-row justify-normal gap-x-6">
+          <div className="flex flex-row gap-x-6">
             <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
               <svg
                 height="100%"
@@ -193,7 +196,6 @@ export default function Sidebar() {
             </div>
           </div>
         </div>
-
         <div className="flex justify-center gap-x-3 mt-10">
           <Link
             href="https://web.facebook.com/thet1112019/"
@@ -265,12 +267,21 @@ export default function Sidebar() {
             target="_blank"
             className="w-[35px] h-[35px] custom-shadow rounded-full"
           >
-            <svg  width="100%"
+            <svg
+              width="100%"
               className="github"
-              height="100%" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
-                <title>thettun17</title>
-                <path className="fill-slate-500" d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5"/>
-                </svg>
+              height="100%"
+              viewBox="0 0 48 48"
+              id="Layer_2"
+              data-name="Layer 2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>thettun17</title>
+              <path
+                className="fill-slate-500"
+                d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5"
+              />
+            </svg>
           </Link>
         </div>
       </div>

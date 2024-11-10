@@ -42,11 +42,13 @@ body {
 }
 
 .sticy-sidebar {
-  position: sticky;
   left: 0;
-  top: 2.5rem;
+  top: 0;
 }
 
+.non-sticky {
+  position: relative;
+}
 .skill-container {
   width: 100px;
   padding-top: 10px;
