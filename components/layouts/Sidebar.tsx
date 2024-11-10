@@ -15,9 +15,10 @@ export default function Sidebar() {
         </div>
         <div>
           <h2 className="text-3xl">Thet Tun</h2>
-          <p className="text-md text-customWhite/80">Software Engineer</p>
+          <p className="text-md text-customWhite/80 laptop:text-md tablet:text-sm">Software Engineer</p>
         </div>
       </div>
+
       {/* Divider */}
       <div className="tablet:hidden laptop:block">
         <div className="border-b border-gray-200 my-8"></div>

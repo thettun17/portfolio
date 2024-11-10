@@ -35,7 +35,7 @@ export default function RootLayout({
             <div className="laptop:w-2/6 tablet:w-full rounded-lg bg-primaryColor sticy-sidebar laptop:sticky tablet:static h-full">
               <Sidebar />
             </div>
-            <div className="laptop:w-5/6 tablet:w-full bg-primaryColor laptop:relative rounded-lg overflow-y-auto">
+            <div className="laptop:w-5/6 tablet:w-full bg-primaryColor laptop:relative rounded-lg overflow-y-auto laptop:mb-0 tablet:mb-10">
               <Navbar />
               <div className="px-12 my-8">{children}</div>
             </div>

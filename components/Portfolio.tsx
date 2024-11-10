@@ -9,14 +9,14 @@ export default function Portfolio() {
       </h2>
       <div className="flex w-full gap-x-7 mt-[30px]">
         {/* BetterHr */}
-        <div className="image-area h-[400px] w-2/4">
+        <div className="image-area h-[400px] laptop:w-2/4 tablet:hidden laptop:block">
           <img
             src="/portfolio/better_hr.png"
             alt="Better HR"
             className="rounded-lg"
           />
         </div>
-        <div className="content-area ml-3 w-2/4">
+        <div className="content-area ml-3 laptop:w-2/4 tablet:w-full">
           <div className="title-area">
             <h1 className="text-white text-md mb-2">BetterHR</h1>
             <div className="flex flex-row items-center gap-x-2 my-2">
@@ -51,7 +51,7 @@ export default function Portfolio() {
       </div>
       {/* ====================== Better Job ======================== */}
       <div className="flex w-full gap-x-7 mt-[30px]">
-        <div className="content-area ml-3 w-2/4">
+        <div className="content-area ml-3 laptop:w-2/4 tablet:w-full">
           <div className="title-area">
             <h1 className="text-white text-md mb-2">Better Job</h1>
             <div className="flex flex-row items-center gap-x-2 my-2">
@@ -77,7 +77,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="image-area h-[400px] w-2/4">
+        <div className="image-area h-[400px] laptop:w-2/4 tablet:hidden laptop:block">
           <img
             src="/portfolio/better_job.png"
             alt="Better HR"
@@ -87,14 +87,14 @@ export default function Portfolio() {
       </div>
       {/* ====================== Tharapa ======================== */}
       <div className="flex w-full gap-x-7 mt-[30px]">
-        <div className="image-area h-[400px] w-2/4">
+        <div className="image-area h-[400px] laptop:w-2/4 tablet:hidden laptop:block">
           <img
             src="/portfolio/tharapa.png"
             alt="Better HR"
             className="rounded-lg"
           />
         </div>
-        <div className="content-area ml-3 w-2/4">
+        <div className="content-area ml-3 laptop:w-2/4 tablet:w-full">
           <div className="title-area">
             <h1 className="text-white text-md mb-2">Tharapa Mart</h1>
             <div className="flex flex-row items-center gap-x-2 my-2">
