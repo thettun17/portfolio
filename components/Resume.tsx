@@ -19,7 +19,7 @@ export default function Resume() {
     <>
       <h2 className="text-2xl font-bold tracking-wide ">
         Resume
-        <div className="rounded-md border-2 bg-iconColor border-iconColor w-[4%]"></div>
+        <div className="rounded-md border-2 bg-iconColor border-iconColor tablet:w-[4%] mobile:w-[20%]"></div>
       </h2>
 
       <div className="work-experience-holder mt-[20px]">

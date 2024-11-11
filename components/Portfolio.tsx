@@ -5,7 +5,7 @@ export default function Portfolio() {
     <>
       <h2 className="text-2xl font-bold tracking-wide">
         Portfolio
-        <div className="rounded-md border-2 bg-iconColor border-iconColor w-[4%]"></div>
+        <div className="rounded-md border-2 bg-iconColor border-iconColor tablet:w-[4%] mobile:w-[20%]"></div>
       </h2>
       <div className="flex w-full gap-x-7 mt-[30px]">
         {/* BetterHr */}

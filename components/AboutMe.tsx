@@ -5,7 +5,7 @@ export default function About() {
     <>
       <h2 className="text-2xl font-bold tracking-wide">
         About Me
-        <div className="rounded-md border-2 bg-iconColor border-iconColor w-[4%]"></div>
+        <div className="rounded-md border-2 bg-iconColor border-iconColor tablet:w-[4%] mobile:w-[20%]"></div>
       </h2>
       <div className="content-text text-white/70 mb-12">
         <p>
