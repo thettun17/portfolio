@@ -37,7 +37,7 @@ export default function RootLayout({
             </div>
             <div className="laptop:w-5/6 mobile:w-full bg-primaryColor laptop:relative rounded-lg overflow-y-auto laptop:mb-0 mobile:mb-10">
               <Navbar />
-              <div className="px-12 my-8">{children}</div>
+              <div className="tablet:px-12 mobile:px-6 my-8">{children}</div>
             </div>
           </div>
         </div>
