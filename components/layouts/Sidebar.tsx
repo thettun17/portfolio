@@ -10,12 +10,12 @@ export default function Sidebar() {
       <div className="px-3 my-8">
         {/* Profile Part */}
         <div className="text-customWhite flex laptop:flex-col mobile:flex-row items-center text-center gap-4 ">
-          <div className="rounded-lg w-[150px] bg-secondaryColor custom-shadow p-2">
+          <div className="tablet:rounded-lg mobile:rounded-full tablet:w-[150px] mobile:w-[100px] bg-secondaryColor custom-shadow tablet:p-2 mobile:p-0.5">
             <img
               src="/images/profile.jpg"
               alt="profile"
               width="100%"
-              className="rounded-lg w-[150px]"
+              className="tablet:rounded-lg mobile:rounded-full tablet:w-[150px] mobile:w-[100px]"
             />
           </div>
           <div>
