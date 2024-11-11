@@ -459,7 +459,7 @@ export default function Skills() {
       {/* ============ Currently Learning =============  */}
 
       <h3 className="text-lg font-semibold mt-8 mb-3">Currently Learning</h3>
-      <ul className="flex flex-row gap-x-4">
+      <ul className="flex flex-row flex-wrap gap-x-4">
         <li className="flex flex-col items-center gap-y-3 skill-container shadow-xl">
           <svg
             xmlns="http://www.w3.org/2000/svg"

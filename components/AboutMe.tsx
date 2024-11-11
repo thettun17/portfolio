@@ -30,9 +30,9 @@ export default function About() {
         </p>
       </div>
       <h2 className="text-md font-bold mb-5 tracking-wider">What I'm Doing</h2>
-      <div className="flex gap-5 flex-col flex-wrap">
-        <div className=" custom-shadow rounded-lg p-5 flex flex-row gap-x-3 border-secondaryColor">
-          <div className="flex-none w-0.5/3">
+      <div className="flex gap-5 tablet:flex-col mobile:flex-row flex-wrap">
+        <div className=" custom-shadow rounded-lg p-5 flex tablet:flex-row mobile:flex-col gap-x-3 border-secondaryColor">
+          <div className="flex-none w-0.5/3 mobile:hidden tablet:block">
             <img src="/images/backend.png" alt="backend-image" />
           </div>
 
@@ -45,8 +45,8 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className=" custom-shadow rounded-lg p-5 flex flex-row gap-x-3">
-          <div className="flex-none w-0.5/3">
+        <div className=" custom-shadow rounded-lg p-5 flex tablet:flex-row mobile:flex-col gap-x-3">
+          <div className="flex-none w-0.5/3 mobile:hidden tablet:block">
             <img src="/images/frontend.png" alt="frontend-image" />
           </div>
           <div className="w-2.5/3">
@@ -58,8 +58,8 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className=" custom-shadow rounded-lg p-5 flex flex-row gap-x-3">
-          <div className="flex-none w-0.5/3">
+        <div className=" custom-shadow rounded-lg p-5 flex tablet:flex-row mobile:flex-col gap-x-3">
+          <div className="flex-none w-0.5/3 mobile:hidden tablet:block">
             <img src="/images/api.png" alt="mobile-api-image" />
           </div>
           <div className="w-2.5/3">
