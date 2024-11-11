@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <div className="w-[90%] mx-auto relative">
           <div className="flex laptop:flex-row tablet:flex-col gap-4 my-8 w-full static">
-            <div className="laptop:w-2/6 tablet:w-full rounded-lg bg-primaryColor sticy-sidebar laptop:sticky tablet:static h-full">
+            <div className="laptop:w-2/6 tablet:w-full rounded-lg bg-primaryColor sticy-sidebar laptop:sticky tablet:relative h-full">
               <Sidebar />
             </div>
             <div className="laptop:w-5/6 tablet:w-full bg-primaryColor laptop:relative rounded-lg overflow-y-auto laptop:mb-0 tablet:mb-10">
