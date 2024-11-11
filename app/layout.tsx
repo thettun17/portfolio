@@ -31,11 +31,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="w-[90%] mx-auto relative">
-          <div className="flex laptop:flex-row tablet:flex-col gap-4 my-8 w-full static">
-            <div className="laptop:w-2/6 tablet:w-full rounded-lg bg-primaryColor sticy-sidebar laptop:sticky tablet:relative h-full">
+          <div className="flex laptop:flex-row mobile:flex-col gap-4 my-8 w-full static">
+            <div className="laptop:w-2/6 mobile:w-full rounded-lg bg-primaryColor sticy-sidebar laptop:sticky mobile:relative h-full">
               <Sidebar />
             </div>
-            <div className="laptop:w-5/6 tablet:w-full bg-primaryColor laptop:relative rounded-lg overflow-y-auto laptop:mb-0 tablet:mb-10">
+            <div className="laptop:w-5/6 mobile:w-full bg-primaryColor laptop:relative rounded-lg overflow-y-auto laptop:mb-0 mobile:mb-10">
               <Navbar />
               <div className="px-12 my-8">{children}</div>
             </div>

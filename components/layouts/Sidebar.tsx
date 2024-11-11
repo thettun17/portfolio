@@ -9,7 +9,7 @@ export default function Sidebar() {
     <>
       <div className="px-3 my-8">
         {/* Profile Part */}
-        <div className="text-customWhite flex laptop:flex-col tablet:flex-row items-center text-center gap-4 ">
+        <div className="text-customWhite flex laptop:flex-col mobile:flex-row items-center text-center gap-4 ">
           <div className="rounded-lg w-[150px] bg-secondaryColor custom-shadow p-2">
             <img
               src="/images/profile.jpg"
@@ -20,18 +20,18 @@ export default function Sidebar() {
           </div>
           <div>
             <h2 className="text-3xl">Thet Tun</h2>
-            <p className="text-md text-customWhite/80 laptop:text-md tablet:text-sm">
+            <p className="text-md text-customWhite/80 laptop:text-md mobile:text-sm">
               Software Engineer
             </p>
           </div>
         </div>
 
         {/* Divider */}
-        <div className={`${isHidden ? 'tablet:hidden' : 'tablet:block'} laptop:block`}>
+        <div className={`${isHidden ? 'mobile:hidden' : 'mobile:block'} laptop:block`}>
           <div className="border-b border-gray-200 my-8"></div>
           {/* Contant Par */}
-          {/* <div className="w-full flex laptop:flex-col tablet:flex-row tablet:flex-wrap gap-6"> */}
-          <div className="w-full grid gap-6 tablet:grid-cols-2 laptop:grid-cols-1">
+          {/* <div className="w-full flex laptop:flex-col mobile:flex-row mobile:flex-wrap gap-6"> */}
+          <div className="w-full grid gap-6 mobile:gird-cols-1 tablet:grid-cols-2 laptop:grid-cols-1">
             {/* Email */}
             <div className="flex flex-row gap-x-6">
               <div className="rounded-lg w-[50px] h-[50px] flex-none p-[0.7rem] bg-secondaryColor custom-shadow">
@@ -295,7 +295,7 @@ export default function Sidebar() {
         </div>
       </div>
       <div
-        className="laptop:hidden tablet:absolute top-0 right-0 p-3 text-sm bg-secondaryColor rounded-bl-lg rounded-tr-lg text-[#b0971b] cursor-pointer"
+        className="laptop:hidden mobile:absolute top-0 right-0 p-3 text-sm bg-secondaryColor rounded-bl-lg rounded-tr-lg text-[#b0971b] cursor-pointer"
         onClick={toggleVisibility}
       >
         Show Contacts
