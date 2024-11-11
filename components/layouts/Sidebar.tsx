@@ -27,7 +27,11 @@ export default function Sidebar() {
         </div>
 
         {/* Divider */}
-        <div className={`${isHidden ? 'mobile:hidden' : 'mobile:block'} laptop:block`}>
+        <div
+          className={`${
+            isHidden ? "mobile:hidden" : "mobile:block"
+          } laptop:block`}
+        >
           <div className="border-b border-gray-200 my-8"></div>
           {/* Contant Par */}
           {/* <div className="w-full flex laptop:flex-col mobile:flex-row mobile:flex-wrap gap-6"> */}
@@ -298,7 +302,7 @@ export default function Sidebar() {
         className="laptop:hidden mobile:absolute top-0 right-0 p-3 text-sm bg-secondaryColor rounded-bl-lg rounded-tr-lg text-[#b0971b] cursor-pointer"
         onClick={toggleVisibility}
       >
-        Show Contacts
+        {isHidden ? 'Show Contacts' : 'Hide Contacts'}
       </div>
     </>
   );
