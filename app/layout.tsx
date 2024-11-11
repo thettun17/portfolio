@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-[90%] mx-auto relative">
+        <div className="tablet:w-[90%] mobile:w-[95%] mx-auto relative">
           <div className="flex laptop:flex-row mobile:flex-col gap-4 my-8 w-full static">
             <div className="laptop:w-2/6 mobile:w-full rounded-lg bg-primaryColor sticy-sidebar laptop:sticky mobile:relative h-full">
               <Sidebar />
