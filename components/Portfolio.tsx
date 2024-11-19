@@ -72,7 +72,7 @@ export default function Portfolio() {
           </p>
           <div className="w-full my-4">
             <p className="mr-4 text-bold font-bold">
-              Languages: PHP, Laravel, Vue.js (v-3), Nuxt.js, Vuex, Node.js,
+              Languages: PHP, Laravel, Vue.js (v-3), Nuxt.js, Pinia, Node.js,
               MongoDB, MySQL, Docker
             </p>
           </div>
