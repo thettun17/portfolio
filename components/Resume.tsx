@@ -103,7 +103,7 @@ export default function Resume() {
               <div className="description timeline">
                 <div className="">
                   <h4>Lead Web Backend Developer</h4>
-                  <p className="text-sm text-white/60">Jan 2022 - Present</p>
+                  <p className="text-sm text-white/60">Nov 2022 - Present</p>
                 </div>
                 <p className="my-3">
                   As the Lead Web Backend Developer at BetterHR, I led the
