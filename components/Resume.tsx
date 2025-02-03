@@ -11,9 +11,8 @@ export default function Resume() {
       months += 12;
     }
 
-    return `${years} year${years !== 1 ? "s" : ""}, ${months} month${
-      months !== 1 ? "s" : ""
-    }`;
+    return `${years} year${years !== 1 ? "s" : ""}, ${months} month${months !== 1 ? "s" : ""
+      }`;
   };
   return (
     <>
@@ -114,30 +113,25 @@ export default function Resume() {
                 </p>
                 <ul className="list-disc list-outsite pl-4 leading-7">
                   <li>
-                    Spearheaded backend development for multi-country payroll
-                    and employee management features, ensuring scalability and
-                    robustness.
+                    Spearheaded the design and development of multi-country payroll features, improving operational efficiency across countries, including Thailand, Singapore, Sri Lanka, Cambodia, Vietnam, and Myanmar.
                   </li>
                   <li>
-                    Enhanced frontend capabilities with Vue.js and Nuxt.js,
-                    creating responsive, modular components that contributed to
-                    a smooth user experience on both web and mobile platforms.
+                    Integrated with Myanmar banking partners, KBZ Bank and UAB Bank, to automate payroll transfers—streamlining financial transactions and reducing manual processing.
                   </li>
                   <li>
-                    Developed and optimized Mobile APIs to support mobile
-                    application integration, facilitating seamless interaction
-                    across devices.
+                    Built flexible project-based payment solutions and a Skill CRM to enhance workforce management.
                   </li>
                   <li>
-                    Integrated a real-time chat feature using GetStream API,
-                    adding in-depth analytics and tracking to provide clients
-                    with actionable insights.
+                    Developed an Employee Resource Center and created an Overtime Analytics Page for actionable workforce insights.
                   </li>
                   <li>
-                    Mentored junior developers by promoting best practices in
-                    code quality, conducting regular code reviews, and providing
-                    guidance in both frontend and backend development areas.
+                    Moved Cron service to AWS Lambda with custom code, improving scalability and performance.
                   </li>
+                  <li>Led performance optimization initiatives, significantly reducing load times.</li>
+                  <li>Designed APIs for mobile app functionality and utilized CloudWatch for production monitoring and debugging.</li>
+                  <li>Utilized CloudWatch for production debugging and monitoring.</li>
+                  <li>Enhanced frontend capabilities with Vue.js and Nuxt.js, creating responsive, modular components that contributed to a smooth user experience on both web and mobile platforms.</li>
+                  <li>Worked on the code structure for BetterJobs website, ensuring high-quality, maintainable backend architecture.</li>
                 </ul>
               </div>
               <div className="description timeline">
