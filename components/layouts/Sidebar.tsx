@@ -54,7 +54,7 @@ export default function Sidebar() {
               </div>
               <div>
                 <h4 className="text-customWhite/70">Email</h4>
-                <a href="mailto:thettun1741997@gmail.com" target="_blank">thettun1741997@gmail.com</a>
+                <a href="mailto:thettun.dev@gmail.com" target="_blank">thettun.dev@gmail.com</a>
               </div>
             </div>
             {/* Phone */}
@@ -202,7 +202,7 @@ export default function Sidebar() {
               <div>
                 <h4 className="text-customWhite/70">Download Resume</h4>
                 {/* <Link href="/resume/Thet_Tun.pdf">Thet_Tun.pdf</Link> */}
-                <a href="/resume/Thet_Tun.pdf" target="_blank">
+                <a href="/resume/Thet_Tun_Resume.pdf" target="_blank">
                   Thet_Tun.pdf
                 </a>
               </div>
