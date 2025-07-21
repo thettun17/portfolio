@@ -10,7 +10,7 @@ export default function About() {
       <div className="content-text text-white/70 mb-12">
         <p>
           Hello, I'm Thet Tun, a Senior Web Developer with a robust background
-          in creating innovative, customer-focused solutions. With over 4 years
+          in creating innovative, customer-focused solutions. With over 5 years
           of hands-on coding experience and more than 4 years in the industry, I
           specialize in Vue.js, Nuxt.js, and Laravel. I graduated with a
           Bachelor of Computer Science (B.C.Sc) from the University of Computer
